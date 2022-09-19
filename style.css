@@ -1,19 +1,76 @@
 body {
-  
+    position: absolute;
+    width: 812px;
+    height: 327px;
+    left: 17px;
+    top: 35px;
+    
+    background: #ADB0F3;
+}
+
+h1 {
+   
+}
+
+#result-id {
+    box-sizing: border-box;
+    position: absolute;
+    width: 325px;
+    height: 325px;
+    left: 242px;
+    top: 215px;
+    background: #D9D9D9;
+    border: 8px solid #F5F4FA;
 }
 
 #profit-id {
-  
+    position: absolute;
+    width: 144px;
+    height: 73px;
+    left: 334px;
+    top: 451px; 
+    background: rgba(241, 32, 32, 0.72);
 }
 #rent-id {
-  
+    position: absolute;
+    width: 258px;
+    height: 113px;
+    left: 35px;
+    top: 597px;
+    background: #D9D9D9;
 }
-#expenses-id {
-  
-}
+
 #utilities-id {
-  
+    position: absolute;
+    width: 258px;
+    height: 113px;
+    left: 35px;
+    top: 797px;
+    background: #D9D9D9;
 }
 #cleaning-id {
-  
+    position: absolute;
+    width: 258px;
+    height: 113px;
+    left: 520px;
+    top: 597px;
+    background: #D9D9D9;
+}
+
+.text-box {
+    position: absolute;
+    width: 812px;
+    height: 327px;
+    left: 0px;
+    top: 0px;
+    background: #ADB0F3;
+}
+
+.background-btm {
+    position: absolute;
+    width: 812px;
+    height: 867px;
+    left: 0px;
+    top: 327px;
+    background: rgba(241, 32, 32, 0.72);
 }
