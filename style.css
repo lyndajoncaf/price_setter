@@ -37,16 +37,36 @@ h1 {
    
 }
 
-#result-id {
-    box-sizing: border-box;
+.text-box {
     position: absolute;
-    width: 325px;
-    height: 325px;
-    left: 242px;
-    top: 215px;
-    background: #D9D9D9;
-    border: 8px solid #F5F4FA;
+    width: 812px;
+    height: 327px;
+    left: 0px;
+    top: 0px;
+    background: #ADB0F3;
 }
+
+.background-btm {
+    position: absolute;
+    width: 812px;
+    height: 867px;
+    left: 0px;
+    top: 327px;
+    background: rgba(241, 32, 32, 0.72);
+
+}
+
+.result {
+box-sizing: border-box;
+position: absolute;
+width: 325px;
+height: 325px;
+left: 242px;
+top: 215px;
+background: #D9D9D9;
+border: 8px solid #F5F4FA;
+}
+
 
 .profit {
     position: absolute;
@@ -63,6 +83,7 @@ h1 {
     left: 35px;
     top: 597px;
     background: #D9D9D9;
+
 }
 
 #utilities-id {
@@ -82,21 +103,4 @@ h1 {
     background: #D9D9D9;
 }
 
-.text-box {
-    position: absolute;
-    width: 812px;
-    height: 327px;
-    left: 0px;
-    top: 0px;
-    background: #ADB0F3;
-}
-
-.background-btm {
-    position: absolute;
-    width: 812px;
-    height: 867px;
-    left: 0px;
-    top: 327px;
-    background: rgba(241, 32, 32, 0.72);
-
-}
+ 
