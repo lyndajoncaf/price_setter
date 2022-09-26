@@ -1,11 +1,10 @@
 body {
-    position: absolute;
-    width: 812px;
-    height: 327px;
-    left: 17px;
-    top: 35px;
-    
-    background: #ADB0F3;
+position: absolute;
+width: 812px;
+height: 1194px;
+left: 35px;
+top: 17px;
+background: #FFFFFF;
 }
 
 button {
@@ -22,6 +21,19 @@ border: 8px solid #F5F4FA;
 }
 
 h1 {
+    position: absolute;
+    width: 390px;
+    height: 40px;
+    left: 211px;
+    top: 118px;
+    
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #3C3535;
    
 }
 
@@ -86,4 +98,5 @@ h1 {
     left: 0px;
     top: 327px;
     background: rgba(241, 32, 32, 0.72);
+
 }
